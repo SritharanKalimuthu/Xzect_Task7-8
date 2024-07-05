@@ -17,17 +17,36 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-size: .95rem; 
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.popularity-badge{
+  rotate: 45deg;
+  position: absolute;
+  padding:.4rem 2.5rem;
+  top: 2rem;
+  right: -2.5rem;
+  z-index: 10;
+}
+
+.team-social-item{
+  bottom: -4rem;
+  background-color: #00000042;
+  max-height: 0;
+  transition: all 700ms ease;
+}
+
+.team:hover>.team-social-item{
+  bottom: 0;
+  max-height:100%;
+}
+
+.blog-category{
+  box-shadow: 0 3px 0 #1b67d8;
 }
