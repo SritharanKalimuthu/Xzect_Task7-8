@@ -6,6 +6,8 @@ import Demo from "./components/Demo";
 import Pricing from "./components/Pricing.jsx"
 import Team from "./components/Team";
 import Blog from "./components/Blog";
+import Community from "./components/Community";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Pricing/>
       <Team/>
       <Blog/>
+      <Community/>
+      <Contact/>
     </>
   );
 }
