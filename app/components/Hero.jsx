@@ -40,9 +40,9 @@ const Hero = () => {
               Create your profile today and let your story unfold. Whether you're showcasing your
               professional achievements or sharing personal passions, ProfileBuilder is your canvas.
             </p>
-            <a
+            <button
               href="#"
-              className="w-40 btn bg-blue-600 hover:bg-blue-700 text-white rounded-sm text-sm font-semibold px-4 py-2 flex items-center"
+              className="w-40 btn bg-blue-600 hover:bg-blue-700 text-white rounded-sm text-sm font-semibold px-4 py-2 flex items-center hover:shadow-lg hover:-translate-y-1 transition-all duration-600"
             >
               Get Started
               <svg
@@ -60,7 +60,7 @@ const Hero = () => {
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </button>
           </div>
           <div className="lg:w-1/2 sm:w-4/5 mx-auto lg:ml-auto lg:mr-0">
             <div className="mt-5 lg:mt-0">

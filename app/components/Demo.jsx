@@ -16,9 +16,9 @@ const Demo = () => {
                 Join a community where every voice is heard and every story cherished. Experience a platform where
                 diversity thrives and connections flourish, embracing authenticity and shared experiences.
                 </p>
-                <a href="#" className="text-blue-600 px-12 py-4 btn btn-lg bg-white rounded-sm text-primary text-md font-semibold">
+                <button href="#" className="text-blue-600 px-12 py-4 btn btn-lg bg-white rounded-sm text-primary text-md font-semibold hover:shadow-lg hover:-translate-y-1 transition-all duration-600">
                 Ask for Demonstration
-                </a>
+                </button>
             </div>
             </div>
         </div>

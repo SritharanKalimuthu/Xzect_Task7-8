@@ -25,9 +25,9 @@ const Features = () => {
               Achieve comprehensive coverage with ProfileBuilder's thorough profile creation process. From personal
               achievements to professional milestones, capture the entirety of your story seamlessly.
             </p>
-            <a
+            <button
               href="#"
-              className="text-sm w-40 flex btn bg-blue-600 text-white font-semibold rounded-sm px-3 py-2"
+              className="text-sm w-40 flex btn bg-blue-600 text-white font-semibold rounded-sm px-3 py-2 hover:shadow-lg hover:-translate-y-1 transition-all duration-600"
             >
               Find out more
               <svg
@@ -45,7 +45,7 @@ const Features = () => {
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </button>
           </div>
           <div className="md:w-6/12 md:ml-auto order-1 md:order-2 mb-24">
             <div className="relative">
@@ -89,9 +89,9 @@ const Features = () => {
               Innovate your narrative with ProfileBuilder's innovative approach. Harness cutting-edge technology to
               transform your profile into a compelling narrative that captivates and inspires.
             </p>
-            <a
+            <button
               href="#"
-              className="text-sm w-40 flex btn bg-blue-600 text-white font-semibold rounded-sm px-3 py-2"
+              className="text-sm w-40 flex btn bg-blue-600 text-white font-semibold rounded-sm px-3 py-2 hover:shadow-lg hover:-translate-y-1 transition-all duration-600"
             >
               Find out more
               <svg
@@ -109,7 +109,7 @@ const Features = () => {
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>

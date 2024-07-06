@@ -53,7 +53,7 @@ const Blog = () => {
                   <span className="blog-category text-xs text-blue-700 bg-blue-200 font-semibold mr-2 px-4 py-1 rounded-md mb-4">
                     {post.category}
                   </span>
-                  <h4 className="text-xl font-medium my-4 text-gray-800 mb-4">
+                  <h4 className="text-xl font-medium my-4 text-gray-800 mb-4 hover:text-blue-700">
                     <a href="#">{post.title}</a>
                   </h4>
                   <p className="text-gray-600 ">{post.description}</p>

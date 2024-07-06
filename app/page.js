@@ -8,10 +8,11 @@ import Team from "./components/Team";
 import Blog from "./components/Blog";
 import Community from "./components/Community";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Navbar/>
       <Hero/>
       <Services/>
@@ -22,6 +23,7 @@ export default function Home() {
       <Blog/>
       <Community/>
       <Contact/>
-    </>
+      <Footer/>
+    </main>
   );
 }

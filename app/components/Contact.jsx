@@ -56,7 +56,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
                   <div className="w-full px-2">
-                    <button type="submit" id="submit" name="send" className="bg-blue-600 text-white px-12 py-4 rounded-sm font-semibold text-sm">
+                    <button type="submit" id="submit" name="send" className="bg-blue-600 text-white px-12 py-4 rounded-sm font-semibold text-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-600">
                       Send Message
                     </button>
                   </div>
@@ -88,8 +88,8 @@ const Contact = () => {
                 </svg>
                 2976 Edwards Street Rocky Mount, NC 27804
               </p>
-                <ul className="flex pt-4">
-                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 mr-8">
+                <ul className="flex pt-4 text-slate-500 ">
+                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 mr-8 hover:bg-blue-600 hover:text-white">
                         <a href="#" className="">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const Contact = () => {
                             height="16"
                             viewBox="0 0 24 24"
                             fill="none"
-                            stroke="#6c757d"
+                            stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -107,7 +107,7 @@ const Contact = () => {
                         </svg>
                         </a>
                     </li>
-                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 mr-8">
+                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 mr-8 hover:bg-blue-600 hover:text-white">
                         <a href="#" >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Contact = () => {
                             height="20"
                             viewBox="0 0 24 24"
                             fill="none"
-                            stroke="#6c757d"
+                            stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -125,15 +125,15 @@ const Contact = () => {
                         </svg>
                         </a>
                     </li>
-                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 mr-8">
-                        <a href="#" >
+                    <li className="w-8 h-8 rounded-full p-2 bg-gray-200 hover:bg-blue-600 hover:text-white mr-8">
+                        <a href="#" className='hover:text-white'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
                             viewBox="0 0 24 24"
                             fill="none"
-                            stroke="#6c757d"
+                            stroke="currentColor"
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"

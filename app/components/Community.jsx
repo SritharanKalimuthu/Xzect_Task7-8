@@ -23,12 +23,12 @@ const Community = () => {
                       <p className="text-white mb-8 pb-3">
                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                       </p>
-                      <a
+                      <button
                         href="#"
-                        className="btn btn-light rounded-full px-12 py-4 font-semibold text-blue-700 bg-white text-sm"
+                        className="btn btn-light rounded-full px-12 py-4 font-semibold text-blue-700 bg-white text-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-600"
                       >
                         Sign Up for free
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
