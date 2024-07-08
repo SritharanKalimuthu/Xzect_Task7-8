@@ -37,7 +37,7 @@ const Hero = () => {
               Get Your Professional Website Done With <b>Qexal</b>
             </h1>
             <p className="mb-5 text-gray-500 leading-loose font-normal">
-              Create your profile today and let your story unfold. Whether you're showcasing your
+              Create your profile today and let your story unfold. Whether you&apos;re showcasing your
               professional achievements or sharing personal passions, ProfileBuilder is your canvas.
             </p>
             <button

@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="font-bold mb-4 text-3xl text-gray-800">Get in Touch</h2>
-            <p className="text-gray-500 mb-5 text-sm">Have questions or need assistance? Get in touch with us—we're here to help you every step of the way!</p>
+            <p className="text-gray-500 mb-5 text-sm">Have questions or need assistance? Get in touch with us—we&apos;re here to help you every step of the way!</p>
 
             <div>
               <form method="post" name="myForm" className="text-sm">

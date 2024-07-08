@@ -11,7 +11,7 @@ const Features = () => {
           <div className="lg:w-2/3 text-center">
             <h2 className="font-semibold text-3xl mb-4">Our Features</h2>
             <p className="text-gray-500 leading-relaxed">
-              Embrace authenticity with Qexal's robust tools. Showcase your unique journey with precision and integrity,
+              Embrace authenticity with Qexal&apos;s robust tools. Showcase your unique journey with precision and integrity,
               ensuring every detail reflects your true self.
             </p>
           </div>
@@ -22,7 +22,7 @@ const Features = () => {
               Perfect Solution For Small Businesses
             </h2>
             <p className="text-gray-500 mb-5">
-              Achieve comprehensive coverage with ProfileBuilder's thorough profile creation process. From personal
+              Achieve comprehensive coverage with ProfileBuilder&apos;s thorough profile creation process. From personal
               achievements to professional milestones, capture the entirety of your story seamlessly.
             </p>
             <button
@@ -86,7 +86,7 @@ const Features = () => {
               Build community & conversion with our suite of social tools
             </h2>
             <p className="text-gray-500 mb-5">
-              Innovate your narrative with ProfileBuilder's innovative approach. Harness cutting-edge technology to
+              Innovate your narrative with ProfileBuilder&apos;s innovative approach. Harness cutting-edge technology to
               transform your profile into a compelling narrative that captivates and inspires.
             </p>
             <button
