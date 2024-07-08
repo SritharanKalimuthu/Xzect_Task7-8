@@ -19,7 +19,7 @@ const Team = () => {
         <div className="text-center mb-12">
           <h2 className="font-bold text-3xl text-gray-800">Our Team Members</h2>
           <p className="text-gray-500 mt-2 text-sm">
-            From expert developers to creative designers and helpful support staff, we're here to ensure your success every step of the way.
+            From expert developers to creative designers and helpful support staff, we&apos;re here to ensure your success every step of the way.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-16">
