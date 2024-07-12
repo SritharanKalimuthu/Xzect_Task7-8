@@ -7,7 +7,7 @@ const Demo = () => {
         <div className="absolute inset-0 overflow-hidden">
             <Image src={demoimage} alt="" className="md:block hidden"/>
         </div>
-        <div className="container mx-auto relative z-10">
+        <div className="container lg:w-4/5 mx-auto relative z-10">
         <div className="flex justify-center">
             <div className="lg:w-2/3">
             <div className="text-center py-4">

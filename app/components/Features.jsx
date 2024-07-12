@@ -6,7 +6,7 @@ import dotimage from '../assets/Images/dot-img.png'
 const Features = () => {
   return (
     <section className="section bg-gray-100 mt-12 py-12" id="features">
-      <div className="container mx-auto px-4 lg:px-24">
+      <div className="container lg:w-4/5 mx-auto px-4">
         <div className="flex justify-center mb-12">
           <div className="lg:w-2/3 text-center">
             <h2 className="font-semibold text-3xl mb-4">Our Features</h2>

@@ -9,7 +9,7 @@ const Blog = () => {
       id: 1,
       category: 'UI & UX Design',
       title: 'Step by step to conduct usability testing',
-      description: 'Learn the essential steps to effectively conduct usability testing and enhanced my UI/UX design process using qexal.',
+      description: 'Learn the essential steps to effectively conduct usability testing and enhanced my UI/UX design.',
       author: 'John Yeager',
       role: 'Designer, New York',
       imgSrc: designer,
@@ -35,8 +35,8 @@ const Blog = () => {
   ];
 
   return (
-    <section id="blog" className="mx-4 mt-16 py-5">
-      <div className="container mx-auto">
+    <section id="blog" className="mt-16 py-5">
+      <div className="container lg:w-4/5 mx-auto">
         <div className="flex justify-center mb-4">
           <div className="text-center max-w-2xl">
             <h2 className="font-bold mb-4 text-3xl text-gray-800">Our Blog</h2>
@@ -49,7 +49,7 @@ const Blog = () => {
           {blogPosts.map((post) => (
             <div key={post.id} className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-4">
+                <div className="p-8">
                   <span className="blog-category text-xs text-blue-700 bg-blue-200 font-semibold mr-2 px-4 py-1 rounded-md mb-4">
                     {post.category}
                   </span>

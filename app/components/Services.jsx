@@ -2,7 +2,7 @@
 const Services = () => {
   return (
     <section className="section my-12 px-4 sm:px-16" id="services">
-        <div className="container mx-auto mt-32 text-slate-800">
+        <div className="container lg:w-4/5 mx-auto mt-32 text-slate-800">
             <div className="flex justify-center mb-12">
             <div className="lg:w-2/3 text-center">
                 <h2 className="font-semibold text-3xl mb-4">Our Services</h2>

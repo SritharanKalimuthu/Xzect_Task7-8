@@ -3,8 +3,8 @@ import supportimage from "../assets/Images/support-bench.png"
 
 const Contact = () => {
   return (
-    <section className="my-32 px-4 lg:px-40 py-8" id="contact">
-      <div className="container mx-auto">
+    <section className="my-32 px-4 py-8" id="contact">
+      <div className="container lg:w-4/6 mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="font-bold mb-4 text-3xl text-gray-800">Get in Touch</h2>

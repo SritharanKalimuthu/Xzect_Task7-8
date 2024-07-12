@@ -23,12 +23,12 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#29344a] px-4 lg:px-40 py-12">
-      <div className="container">
+    <footer className="bg-[#29344a] px-4 lg:px-40 py-12 flex justify-center">
+      <div className="container lg:w-4/5">
         <div className="relative">
-            <Image src={dottedimage} alt='' className='absolute -z-10'/>
+            <Image src={dottedimage} alt='' className='absolute z-[0]'/>
         </div>
-        <div className="flex flex-col lg:flex-row my-4 py-5 ">
+        <div className="relative flex flex-col lg:flex-row my-4 py-5 z-[1]">
           <div className=" mb-4 lg:mr-12 pr-1 lg:pr-24 ">
             <a href="#">
               <Image

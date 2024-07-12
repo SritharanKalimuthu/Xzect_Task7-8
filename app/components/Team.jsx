@@ -15,14 +15,14 @@ const Team = () => {
 
   return (
     <section className="bg-light py-20" id="team">
-      <div className="container mx-auto">
+      <div className="container lg:w-4/5 mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-bold text-3xl text-gray-800">Our Team Members</h2>
           <p className="text-gray-500 mt-2 text-sm">
             From expert developers to creative designers and helpful support staff, we&apos;re here to ensure your success every step of the way.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mx-16">
           {teamMembers.map((member, index) => (
             <div key={index} className="team-box relative overflow-hidden rounded text-center shadow-lg">
               <div className="relative overflow-hidden team">

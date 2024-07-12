@@ -8,7 +8,7 @@ const Community = () => {
     <div className="relative my-8">
         <Image src={cta} alt='' className='absolute bg-light bg-center w-full'/>
     </div>
-      <div className="container mx-auto pt-28">
+      <div className="container lg:w-4/5 mx-auto pt-28">
         <div className="flex justify-center">
           <div className="w-4/5">
             <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-center border-0 my-5 rounded-lg relative overflow-hidden py-12">
